@@ -24,4 +24,15 @@ print(vin_500_plus_eu)
 ```
 
 ## Unit tests
-` python -m unittest tests.test_vin_generator `
+### Run all tests
+`python -m unittest discover tests`
+
+### Run happy path tests only
+`python -m unittest tests.test_vin_generator`
+
+### Run sad path tests only
+`python -m unittest tests.test_vin_generator_sad_path`
+
+### Run additional tests only
+`python -m unittest tests.test_vin_generator_additional`
+
